@@ -2,19 +2,19 @@ import streamlit as st
 import logging
 from document_processor import process_uploaded_file
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_ollama import  ChatOllama
+from langchain_ollama import ChatOllama
 from langchain.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain.retrievers.multi_query import MultiQueryRetriever
 
-try:
+"""try:
     __import__("pysqlite3")
     import sys
 
     sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 except ImportError:
-    pass
+    pass"""
 
 # Configure logging
 logging.basicConfig(
