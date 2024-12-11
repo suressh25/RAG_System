@@ -12,4 +12,4 @@ pillow
 pdf2image
 pytesseract
 ollama
-pdfminer
+pdfminer.six==20201018
