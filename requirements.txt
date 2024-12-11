@@ -12,3 +12,4 @@ pillow
 pdf2image
 pytesseract
 ollama
+pdfminer
