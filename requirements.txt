@@ -13,3 +13,4 @@ pdf2image
 pytesseract
 ollama
 pdfminer.six==20201018
+pi_heif
