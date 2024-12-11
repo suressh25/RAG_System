@@ -14,3 +14,4 @@ pytesseract
 ollama
 pdfminer.six==20201018
 pi_heif
+unstructured_inference
