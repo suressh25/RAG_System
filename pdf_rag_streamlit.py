@@ -14,6 +14,11 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain.retrievers.multi_query import MultiQueryRetriever
 import ollama
 
+__import__("pysqlite3")
+import sys
+
+sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
