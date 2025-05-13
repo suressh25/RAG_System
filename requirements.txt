@@ -1,8 +1,10 @@
+packaging==24.0
 streamlit
 langchain
 langchain-ollama
 langchain-community
 langchain-core
+langchain-chroma
 chromadb
 pysqlite3-binary
 unstructured
@@ -11,7 +13,11 @@ python-pptx
 pillow
 pdf2image
 pytesseract
+unstructured_pytesseract
 ollama
-pdfminer.six==20201018
+pdfminer.six
 pi_heif
 unstructured_inference
+torch
+torchvision
+torchaudio
